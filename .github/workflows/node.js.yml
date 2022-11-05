@@ -29,11 +29,10 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: npm test:cov
   sonarcloud:
     runs-on: ubuntu-latest
     steps:
-    - run:  sudo npm install -g jest
-    - run: jest --coverage
     - uses: actions/checkout@v2
       with:
         # Disabling shallow clone is recommended for improving relevancy of reporting test
