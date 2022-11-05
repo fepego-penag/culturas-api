@@ -32,6 +32,7 @@ jobs:
   sonarcloud:
     runs-on: ubuntu-latest
     steps:
+    - run: jest --coverage
     - uses: actions/checkout@v2
       with:
         # Disabling shallow clone is recommended for improving relevancy of reporting test
