@@ -54,7 +54,7 @@ export class CulturaController {
     @Body() culturaDto: CulturaDto,
   ) {
     const cultura: CulturaEntity = plainToInstance(CulturaEntity, culturaDto);
-    return await this.culturaService.update(culturaId, cultura, "test");
+    return await this.culturaService.update(culturaId, cultura);
   }
 
   @Roles(Role.Delete_all)

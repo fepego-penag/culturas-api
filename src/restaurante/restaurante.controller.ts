@@ -19,11 +19,14 @@ import { Roles } from '../auth/Decorators/roles.decorator';
 import { RolesGuard } from '../auth/guards/roles.guard';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { Role } from '../auth/models/role.enum';
+import { PaisEntity } from "../pais/pais.entity";
+
 
 @Controller('restaurantes')
 @UseGuards(JwtAuthGuard, RolesGuard)
 @UseInterceptors(BusinessErrorsInterceptor)
 export class RestauranteController {
+
   constructor(private readonly restauranteService: RestauranteService) {}
 
   @Roles(Role.Read_all, Role.Read_restaurante)

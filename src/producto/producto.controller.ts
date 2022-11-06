@@ -19,6 +19,7 @@ import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { RolesGuard } from '../auth/guards/roles.guard';
 import { Roles } from '../auth/Decorators/roles.decorator';
 import { Role } from '../auth/models/role.enum';
+import { PaisEntity } from "../pais/pais.entity";
 
 @Controller('productos')
 @UseGuards(JwtAuthGuard, RolesGuard)
