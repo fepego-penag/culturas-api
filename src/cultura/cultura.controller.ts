@@ -24,6 +24,7 @@ import { Role } from "../auth/models/role.enum";
 @UseGuards(JwtAuthGuard, RolesGuard)
 @UseInterceptors(BusinessErrorsInterceptor)
 export class CulturaController {
+  var noUsedVar = ""
   constructor(private readonly culturaService: CulturaService) {}
 
   @Roles(Role.Read_all, Role.Read_Cultura)
