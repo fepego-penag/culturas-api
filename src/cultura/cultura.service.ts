@@ -83,4 +83,8 @@ export class CulturaService {
 
     await this.culturaRepository.remove(cultura);
   }
+
+  async nonUsedMethods() {
+    return "no used"
+  }
 }

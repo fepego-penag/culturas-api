@@ -24,7 +24,8 @@ import { Role } from "../auth/models/role.enum";
 @UseGuards(JwtAuthGuard, RolesGuard)
 @UseInterceptors(BusinessErrorsInterceptor)
 export class CulturaController {
-  var noUsedVar = ""
+  private nameVar: string;
+
   constructor(private readonly culturaService: CulturaService) {}
 
   @Roles(Role.Read_all, Role.Read_Cultura)
@@ -53,7 +54,7 @@ export class CulturaController {
     @Body() culturaDto: CulturaDto,
   ) {
     const cultura: CulturaEntity = plainToInstance(CulturaEntity, culturaDto);
-    return await this.culturaService.update(culturaId, cultura);
+    return await this.culturaService.update(culturaId, cultura, "test");
   }
 
   @Roles(Role.Delete_all)
