@@ -23,10 +23,8 @@ export class CulturaPaisService {
       where: { id: paisId },
     });
     if (!pais)
-      throw new BusinessLogicException(
-        'El país con el id dado no fue encontrado',
-        BusinessError.NOT_FOUND,
-      );
+      throw 'El país con el id dado no fue encontrado';
+
     return pais;
   }
 
@@ -49,9 +47,12 @@ export class CulturaPaisService {
   ): Promise<CulturaEntity> {
     const pais: PaisEntity = await this.getPaisByPaisId(paisId);
     const cultura: CulturaEntity = await this.getCulturaByCulturaId(culturaId);
-
-    cultura.paises = [...cultura.paises, pais];
+    cultura.paises = [...cultura.paises, ,pais];
     return await this.culturaRepository.save(cultura);
+  }
+
+  async findPaisByCityId(){
+    // TODO
   }
 
   async findPaisByCulturaIdPaisId(
@@ -66,7 +67,7 @@ export class CulturaPaisService {
       throw new BusinessLogicException(
         'El país con el id dado no fue a sociado a la cultura',
         BusinessError.PRECONDITION_FAILED,
-      );
+      );;
 
     const cultura: CulturaEntity = await this.getCulturaByCulturaId(culturaId);
 
@@ -89,6 +90,9 @@ export class CulturaPaisService {
     return cultura.paises;
   }
 
+  testingFunct(){
+  }
+
   async associatePaisesCultura(
     culturaId: string,
     paises: PaisEntity[],
@@ -96,7 +100,7 @@ export class CulturaPaisService {
     const cultura: CulturaEntity = await this.getCulturaByCulturaId(culturaId);
     let paisId: string;
 
-    for (let i = 0; i < paises.length; i++) {
+    for (var i = 0; i < paises.length; i++) {
       paisId = `${paises[i].id}`;
       const pais: PaisEntity = await this.getPaisByPaisId(paisId);
 

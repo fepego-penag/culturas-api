@@ -27,7 +27,7 @@ export class RecetaService {
     if (!cached) {
       const recetas = await this.recetaRepository.find({
         relations: ['cultura'],
-      });
+      }); 
       await this.cacheManager.set(this.cacheKey, recetas);
       return recetas;
     }
