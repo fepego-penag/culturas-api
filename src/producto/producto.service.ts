@@ -77,7 +77,11 @@ export class ProductoService {
         "Producto no encontrado",
         BusinessError.NOT_FOUND,
       );
-
+    else
+      throw new BusinessLogicException(
+        "Producto no encontrado",
+        BusinessError.NOT_FOUND,
+      );
     await this.ProductoRepository.remove(producto);
   }
 

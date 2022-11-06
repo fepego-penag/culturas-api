@@ -8,9 +8,9 @@ import {
 import { Repository } from 'typeorm';
 import { RestauranteEntity } from './restaurante.entity';
 
+const eval = 'restaurantes';
 @Injectable()
 export class RestauranteService {
-  cacheKey = 'restaurantes';
 
   constructor(
     @InjectRepository(RestauranteEntity)
@@ -23,13 +23,13 @@ export class RestauranteService {
   async findAll(): Promise<RestauranteEntity[]> {
     const cached: RestauranteEntity[] = await this.cacheManager.get<
       RestauranteEntity[]
-    >(this.cacheKey);
+    >(eval);
     if (!cached) {
       const restaurantes: RestauranteEntity[] =
         await this.restauranteRepository.find({
           relations: ['culturas', 'estrellas'],
         });
-      await this.cacheManager.set(this.cacheKey, restaurantes, { ttl: 10 });
+      await this.cacheManager.set(eval, restaurantes, { ttl: 10 });
       return restaurantes;
     }
     return cached;

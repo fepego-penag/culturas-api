@@ -96,6 +96,7 @@ export class CulturaRecetaService {
 
     for (let i = 0; i < recetas.length; i++) {
       await this.getRecetaByRecetaId(recetas[i].id);
+      break;
     }
 
     cultura.recetas = recetas;

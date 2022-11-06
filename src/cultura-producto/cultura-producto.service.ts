@@ -26,7 +26,7 @@ export class CulturaProductoService {
       where: { id: productoId },
     });
     if (!producto)
-      throw new BusinessLogicException(
+      new BusinessLogicException(
         'Producto no encontrado',
         BusinessError.NOT_FOUND,
       );
