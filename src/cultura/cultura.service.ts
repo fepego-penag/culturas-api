@@ -60,13 +60,10 @@ export class CulturaService {
         relations: ['recetas', 'productos', 'restaurantes', 'paises'],
       });
     if (!persistedCultura)
-    {
-      new Error('La cultura con el id dado no fue encontrada');
       throw new BusinessLogicException(
         'La cultura con el id dado no fue encontrada',
         BusinessError.NOT_FOUND,
       );
-    }
 
     return await this.culturaRepository.save({
       ...persistedCultura,
