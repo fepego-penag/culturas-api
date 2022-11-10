@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668052511932" clover="3.2.0">
-  <project timestamp="1668052511932" name="All files">
-    <metrics statements="1068" coveredstatements="463" conditionals="65" coveredconditionals="42" methods="264" coveredmethods="104" elements="1397" coveredelements="609" complexity="0" loc="1068" ncloc="1068" packages="21" files="67" classes="67"/>
+<coverage generated="1668053405444" clover="3.2.0">
+  <project timestamp="1668053405444" name="All files">
+    <metrics statements="1068" coveredstatements="469" conditionals="65" coveredconditionals="45" methods="264" coveredmethods="107" elements="1397" coveredelements="621" complexity="0" loc="1068" ncloc="1068" packages="21" files="67" classes="67"/>
     <package name="src">
       <metrics statements="43" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <file name="app.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/app.controller.ts">
+      <file name="app.controller.ts" path="/Users/felipepena/code/culturas-api/src/app.controller.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -13,7 +13,7 @@
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="app.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/app.module.ts">
+      <file name="app.module.ts" path="/Users/felipepena/code/culturas-api/src/app.module.ts">
         <metrics statements="26" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -42,13 +42,13 @@
         <line num="25" count="0" type="stmt"/>
         <line num="69" count="0" type="stmt"/>
       </file>
-      <file name="app.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/app.service.ts">
+      <file name="app.service.ts" path="/Users/felipepena/code/culturas-api/src/app.service.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
-      <file name="main.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/main.ts">
+      <file name="main.ts" path="/Users/felipepena/code/culturas-api/src/main.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -61,8 +61,8 @@
       </file>
     </package>
     <package name="src.auth">
-      <metrics statements="24" coveredstatements="9" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <file name="auth.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/auth.module.ts">
+      <metrics statements="24" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="auth.module.ts" path="/Users/felipepena/code/culturas-api/src/auth/auth.module.ts">
         <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -75,27 +75,27 @@
         <line num="9" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="auth.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/auth.service.ts">
-        <metrics statements="14" coveredstatements="9" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="auth.service.ts" path="/Users/felipepena/code/culturas-api/src/auth/auth.service.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="cond" truecount="0" falsecount="3"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.auth.Decorators">
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="roles.decorator.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/Decorators/roles.decorator.ts">
+      <file name="roles.decorator.ts" path="/Users/felipepena/code/culturas-api/src/auth/Decorators/roles.decorator.ts">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
@@ -103,19 +103,19 @@
     </package>
     <package name="src.auth.guards">
       <metrics statements="15" coveredstatements="3" conditionals="9" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <file name="jwt-auth.guard.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/guards/jwt-auth.guard.ts">
+      <file name="jwt-auth.guard.ts" path="/Users/felipepena/code/culturas-api/src/auth/guards/jwt-auth.guard.ts">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
-      <file name="local-auth.guard.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/guards/local-auth.guard.ts">
+      <file name="local-auth.guard.ts" path="/Users/felipepena/code/culturas-api/src/auth/guards/local-auth.guard.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
       </file>
-      <file name="roles.guard.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/guards/roles.guard.ts">
+      <file name="roles.guard.ts" path="/Users/felipepena/code/culturas-api/src/auth/guards/roles.guard.ts">
         <metrics statements="9" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -130,7 +130,7 @@
     </package>
     <package name="src.auth.models">
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="role.enum.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/models/role.enum.ts">
+      <file name="role.enum.ts" path="/Users/felipepena/code/culturas-api/src/auth/models/role.enum.ts">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -146,7 +146,7 @@
     </package>
     <package name="src.auth.strategies">
       <metrics statements="18" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="jwt-strategy.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/strategies/jwt-strategy.ts">
+      <file name="jwt-strategy.ts" path="/Users/felipepena/code/culturas-api/src/auth/strategies/jwt-strategy.ts">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -156,7 +156,7 @@
         <line num="9" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
       </file>
-      <file name="local-strategy.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/auth/strategies/local-strategy.ts">
+      <file name="local-strategy.ts" path="/Users/felipepena/code/culturas-api/src/auth/strategies/local-strategy.ts">
         <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -173,7 +173,7 @@
     </package>
     <package name="src.cultura">
       <metrics statements="112" coveredstatements="45" conditionals="4" coveredconditionals="4" methods="35" coveredmethods="14"/>
-      <file name="cultura.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura/cultura.controller.ts">
+      <file name="cultura.controller.ts" path="/Users/felipepena/code/culturas-api/src/cultura/cultura.controller.ts">
         <metrics statements="24" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -200,7 +200,7 @@
         <line num="63" count="0" type="stmt"/>
         <line num="64" count="0" type="stmt"/>
       </file>
-      <file name="cultura.dto.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura/cultura.dto.ts">
+      <file name="cultura.dto.ts" path="/Users/felipepena/code/culturas-api/src/cultura/cultura.dto.ts">
         <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -208,7 +208,7 @@
         <line num="9" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
-      <file name="cultura.entity.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura/cultura.entity.ts">
+      <file name="cultura.entity.ts" path="/Users/felipepena/code/culturas-api/src/cultura/cultura.entity.ts">
         <metrics statements="21" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="8"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -232,7 +232,7 @@
         <line num="43" count="104" type="stmt"/>
         <line num="44" count="9" type="stmt"/>
       </file>
-      <file name="cultura.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura/cultura.module.ts">
+      <file name="cultura.module.ts" path="/Users/felipepena/code/culturas-api/src/cultura/cultura.module.ts">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -243,7 +243,7 @@
         <line num="7" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="cultura.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura/cultura.resolver.ts">
+      <file name="cultura.resolver.ts" path="/Users/felipepena/code/culturas-api/src/cultura/cultura.resolver.ts">
         <metrics statements="25" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -271,7 +271,7 @@
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
       </file>
-      <file name="cultura.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura/cultura.service.ts">
+      <file name="cultura.service.ts" path="/Users/felipepena/code/culturas-api/src/cultura/cultura.service.ts">
         <metrics statements="29" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -306,7 +306,7 @@
     </package>
     <package name="src.cultura-pais">
       <metrics statements="77" coveredstatements="47" conditionals="6" coveredconditionals="5" methods="17" coveredmethods="11"/>
-      <file name="cultura-pais.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-pais/cultura-pais.controller.ts">
+      <file name="cultura-pais.controller.ts" path="/Users/felipepena/code/culturas-api/src/cultura-pais/cultura-pais.controller.ts">
         <metrics statements="22" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -331,7 +331,7 @@
         <line num="72" count="0" type="stmt"/>
         <line num="76" count="0" type="stmt"/>
       </file>
-      <file name="cultura-pais.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-pais/cultura-pais.module.ts">
+      <file name="cultura-pais.module.ts" path="/Users/felipepena/code/culturas-api/src/cultura-pais/cultura-pais.module.ts">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -341,7 +341,7 @@
         <line num="6" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="cultura-pais.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-pais/cultura-pais.service.ts">
+      <file name="cultura-pais.service.ts" path="/Users/felipepena/code/culturas-api/src/cultura-pais/cultura-pais.service.ts">
         <metrics statements="48" coveredstatements="47" conditionals="6" coveredconditionals="5" methods="11" coveredmethods="11"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -395,7 +395,7 @@
     </package>
     <package name="src.cultura-producto">
       <metrics statements="110" coveredstatements="37" conditionals="6" coveredconditionals="3" methods="31" coveredmethods="8"/>
-      <file name="cultura-producto.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-producto/cultura-producto.controller.ts">
+      <file name="cultura-producto.controller.ts" path="/Users/felipepena/code/culturas-api/src/cultura-producto/cultura-producto.controller.ts">
         <metrics statements="22" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -420,7 +420,7 @@
         <line num="77" count="0" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
       </file>
-      <file name="cultura-producto.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-producto/cultura-producto.module.ts">
+      <file name="cultura-producto.module.ts" path="/Users/felipepena/code/culturas-api/src/cultura-producto/cultura-producto.module.ts">
         <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -432,7 +432,7 @@
         <line num="8" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
       </file>
-      <file name="cultura-producto.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-producto/cultura-producto.resolver.ts">
+      <file name="cultura-producto.resolver.ts" path="/Users/felipepena/code/culturas-api/src/cultura-producto/cultura-producto.resolver.ts">
         <metrics statements="26" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -461,7 +461,7 @@
         <line num="61" count="0" type="stmt"/>
         <line num="65" count="0" type="stmt"/>
       </file>
-      <file name="cultura-producto.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-producto/cultura-producto.service.ts">
+      <file name="cultura-producto.service.ts" path="/Users/felipepena/code/culturas-api/src/cultura-producto/cultura-producto.service.ts">
         <metrics statements="53" coveredstatements="37" conditionals="6" coveredconditionals="3" methods="12" coveredmethods="8"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -520,7 +520,7 @@
     </package>
     <package name="src.cultura-receta">
       <metrics statements="106" coveredstatements="48" conditionals="5" coveredconditionals="5" methods="30" coveredmethods="11"/>
-      <file name="cultura-receta.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-receta/cultura-receta.controller.ts">
+      <file name="cultura-receta.controller.ts" path="/Users/felipepena/code/culturas-api/src/cultura-receta/cultura-receta.controller.ts">
         <metrics statements="22" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -545,7 +545,7 @@
         <line num="75" count="0" type="stmt"/>
         <line num="79" count="0" type="stmt"/>
       </file>
-      <file name="cultura-receta.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-receta/cultura-receta.module.ts">
+      <file name="cultura-receta.module.ts" path="/Users/felipepena/code/culturas-api/src/cultura-receta/cultura-receta.module.ts">
         <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -557,7 +557,7 @@
         <line num="8" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
       </file>
-      <file name="cultura-receta.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-receta/cultura-receta.resolver.ts">
+      <file name="cultura-receta.resolver.ts" path="/Users/felipepena/code/culturas-api/src/cultura-receta/cultura-receta.resolver.ts">
         <metrics statements="26" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -586,7 +586,7 @@
         <line num="56" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
       </file>
-      <file name="cultura-receta.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-receta/cultura-receta.service.ts">
+      <file name="cultura-receta.service.ts" path="/Users/felipepena/code/culturas-api/src/cultura-receta/cultura-receta.service.ts">
         <metrics statements="49" coveredstatements="48" conditionals="5" coveredconditionals="5" methods="11" coveredmethods="11"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -641,7 +641,7 @@
     </package>
     <package name="src.cultura-restaurante">
       <metrics statements="104" coveredstatements="49" conditionals="5" coveredconditionals="5" methods="28" coveredmethods="11"/>
-      <file name="cultura-restaurante.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-restaurante/cultura-restaurante.controller.ts">
+      <file name="cultura-restaurante.controller.ts" path="/Users/felipepena/code/culturas-api/src/cultura-restaurante/cultura-restaurante.controller.ts">
         <metrics statements="22" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -666,7 +666,7 @@
         <line num="79" count="0" type="stmt"/>
         <line num="83" count="0" type="stmt"/>
       </file>
-      <file name="cultura-restaurante.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-restaurante/cultura-restaurante.module.ts">
+      <file name="cultura-restaurante.module.ts" path="/Users/felipepena/code/culturas-api/src/cultura-restaurante/cultura-restaurante.module.ts">
         <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -678,7 +678,7 @@
         <line num="8" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
       </file>
-      <file name="cultura-restaurante.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-restaurante/cultura-restaurante.resolver.ts">
+      <file name="cultura-restaurante.resolver.ts" path="/Users/felipepena/code/culturas-api/src/cultura-restaurante/cultura-restaurante.resolver.ts">
         <metrics statements="23" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -704,7 +704,7 @@
         <line num="56" count="0" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
       </file>
-      <file name="cultura-restaurante.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/cultura-restaurante/cultura-restaurante.service.ts">
+      <file name="cultura-restaurante.service.ts" path="/Users/felipepena/code/culturas-api/src/cultura-restaurante/cultura-restaurante.service.ts">
         <metrics statements="50" coveredstatements="49" conditionals="5" coveredconditionals="5" methods="11" coveredmethods="11"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -750,7 +750,7 @@
         <line num="110" count="4" type="stmt"/>
         <line num="112" count="3" type="stmt"/>
         <line num="114" count="2" type="stmt"/>
-        <line num="115" count="9" type="stmt"/>
+        <line num="115" count="7" type="stmt"/>
         <line num="118" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="119" count="1" type="stmt"/>
         <line num="124" count="1" type="stmt"/>
@@ -760,7 +760,7 @@
     </package>
     <package name="src.estrella-michellin">
       <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="estrella-michellin.entity.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/estrella-michellin/estrella-michellin.entity.ts">
+      <file name="estrella-michellin.entity.ts" path="/Users/felipepena/code/culturas-api/src/estrella-michellin/estrella-michellin.entity.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -771,7 +771,7 @@
         <line num="15" count="104" type="stmt"/>
         <line num="16" count="9" type="stmt"/>
       </file>
-      <file name="estrella-michellin.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/estrella-michellin/estrella-michellin.module.ts">
+      <file name="estrella-michellin.module.ts" path="/Users/felipepena/code/culturas-api/src/estrella-michellin/estrella-michellin.module.ts">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
@@ -779,7 +779,7 @@
     </package>
     <package name="src.pais">
       <metrics statements="73" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="8"/>
-      <file name="pais.dto.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/pais/pais.dto.ts">
+      <file name="pais.dto.ts" path="/Users/felipepena/code/culturas-api/src/pais/pais.dto.ts">
         <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -787,7 +787,7 @@
         <line num="9" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="pais.entity.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/pais/pais.entity.ts">
+      <file name="pais.entity.ts" path="/Users/felipepena/code/culturas-api/src/pais/pais.entity.ts">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -799,7 +799,7 @@
         <line num="18" count="104" type="stmt"/>
         <line num="19" count="9" type="stmt"/>
       </file>
-      <file name="pais.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/pais/pais.module.ts">
+      <file name="pais.module.ts" path="/Users/felipepena/code/culturas-api/src/pais/pais.module.ts">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -809,7 +809,7 @@
         <line num="6" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
       </file>
-      <file name="pais.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/pais/pais.service.ts">
+      <file name="pais.service.ts" path="/Users/felipepena/code/culturas-api/src/pais/pais.service.ts">
         <metrics statements="28" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -840,7 +840,7 @@
         <line num="73" count="1" type="stmt"/>
         <line num="78" count="2" type="stmt"/>
       </file>
-      <file name="paises.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/pais/paises.controller.ts">
+      <file name="paises.controller.ts" path="/Users/felipepena/code/culturas-api/src/pais/paises.controller.ts">
         <metrics statements="24" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -870,7 +870,7 @@
     </package>
     <package name="src.producto">
       <metrics statements="104" coveredstatements="38" conditionals="4" coveredconditionals="4" methods="26" coveredmethods="8"/>
-      <file name="producto.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/producto/producto.controller.ts">
+      <file name="producto.controller.ts" path="/Users/felipepena/code/culturas-api/src/producto/producto.controller.ts">
         <metrics statements="24" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -897,7 +897,7 @@
         <line num="68" count="0" type="stmt"/>
         <line num="69" count="0" type="stmt"/>
       </file>
-      <file name="producto.dto.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/producto/producto.dto.ts">
+      <file name="producto.dto.ts" path="/Users/felipepena/code/culturas-api/src/producto/producto.dto.ts">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -907,7 +907,7 @@
         <line num="19" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
       </file>
-      <file name="producto.entity.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/producto/producto.entity.ts">
+      <file name="producto.entity.ts" path="/Users/felipepena/code/culturas-api/src/producto/producto.entity.ts">
         <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -922,7 +922,7 @@
         <line num="29" count="104" type="stmt"/>
         <line num="30" count="9" type="stmt"/>
       </file>
-      <file name="producto.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/producto/producto.module.ts">
+      <file name="producto.module.ts" path="/Users/felipepena/code/culturas-api/src/producto/producto.module.ts">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -933,7 +933,7 @@
         <line num="7" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="producto.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/producto/producto.resolver.ts">
+      <file name="producto.resolver.ts" path="/Users/felipepena/code/culturas-api/src/producto/producto.resolver.ts">
         <metrics statements="25" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -961,7 +961,7 @@
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
       </file>
-      <file name="producto.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/producto/producto.service.ts">
+      <file name="producto.service.ts" path="/Users/felipepena/code/culturas-api/src/producto/producto.service.ts">
         <metrics statements="28" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -995,7 +995,7 @@
     </package>
     <package name="src.receta">
       <metrics statements="106" coveredstatements="39" conditionals="4" coveredconditionals="4" methods="26" coveredmethods="8"/>
-      <file name="receta.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/receta/receta.controller.ts">
+      <file name="receta.controller.ts" path="/Users/felipepena/code/culturas-api/src/receta/receta.controller.ts">
         <metrics statements="24" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -1022,7 +1022,7 @@
         <line num="61" count="0" type="stmt"/>
         <line num="62" count="0" type="stmt"/>
       </file>
-      <file name="receta.dto.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/receta/receta.dto.ts">
+      <file name="receta.dto.ts" path="/Users/felipepena/code/culturas-api/src/receta/receta.dto.ts">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -1033,7 +1033,7 @@
         <line num="24" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
       </file>
-      <file name="receta.entity.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/receta/receta.entity.ts">
+      <file name="receta.entity.ts" path="/Users/felipepena/code/culturas-api/src/receta/receta.entity.ts">
         <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -1049,7 +1049,7 @@
         <line num="33" count="104" type="stmt"/>
         <line num="34" count="9" type="stmt"/>
       </file>
-      <file name="receta.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/receta/receta.module.ts">
+      <file name="receta.module.ts" path="/Users/felipepena/code/culturas-api/src/receta/receta.module.ts">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -1060,7 +1060,7 @@
         <line num="7" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="receta.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/receta/receta.resolver.ts">
+      <file name="receta.resolver.ts" path="/Users/felipepena/code/culturas-api/src/receta/receta.resolver.ts">
         <metrics statements="25" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -1088,7 +1088,7 @@
         <line num="38" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
       </file>
-      <file name="receta.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/receta/receta.service.ts">
+      <file name="receta.service.ts" path="/Users/felipepena/code/culturas-api/src/receta/receta.service.ts">
         <metrics statements="28" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1122,7 +1122,7 @@
     </package>
     <package name="src.restaurante">
       <metrics statements="101" coveredstatements="38" conditionals="4" coveredconditionals="4" methods="28" coveredmethods="10"/>
-      <file name="restaurante.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/restaurante/restaurante.controller.ts">
+      <file name="restaurante.controller.ts" path="/Users/felipepena/code/culturas-api/src/restaurante/restaurante.controller.ts">
         <metrics statements="24" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -1149,14 +1149,14 @@
         <line num="70" count="0" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
       </file>
-      <file name="restaurante.dto.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/restaurante/restaurante.dto.ts">
+      <file name="restaurante.dto.ts" path="/Users/felipepena/code/culturas-api/src/restaurante/restaurante.dto.ts">
         <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
-      <file name="restaurante.entity.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/restaurante/restaurante.entity.ts">
+      <file name="restaurante.entity.ts" path="/Users/felipepena/code/culturas-api/src/restaurante/restaurante.entity.ts">
         <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -1171,7 +1171,7 @@
         <line num="27" count="104" type="stmt"/>
         <line num="28" count="9" type="stmt"/>
       </file>
-      <file name="restaurante.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/restaurante/restaurante.module.ts">
+      <file name="restaurante.module.ts" path="/Users/felipepena/code/culturas-api/src/restaurante/restaurante.module.ts">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -1182,7 +1182,7 @@
         <line num="7" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="restaurante.resolver.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/restaurante/restaurante.resolver.ts">
+      <file name="restaurante.resolver.ts" path="/Users/felipepena/code/culturas-api/src/restaurante/restaurante.resolver.ts">
         <metrics statements="25" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -1210,7 +1210,7 @@
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
       </file>
-      <file name="restaurante.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/restaurante/restaurante.service.ts">
+      <file name="restaurante.service.ts" path="/Users/felipepena/code/culturas-api/src/restaurante/restaurante.service.ts">
         <metrics statements="28" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -1244,7 +1244,7 @@
     </package>
     <package name="src.shared.errors">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="business-errors.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/shared/errors/business-errors.ts">
+      <file name="business-errors.ts" path="/Users/felipepena/code/culturas-api/src/shared/errors/business-errors.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="52" type="stmt"/>
@@ -1257,7 +1257,7 @@
     </package>
     <package name="src.shared.interceptors">
       <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="business-errors.interceptor.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/shared/interceptors/business-errors.interceptor.ts">
+      <file name="business-errors.interceptor.ts" path="/Users/felipepena/code/culturas-api/src/shared/interceptors/business-errors.interceptor.ts">
         <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
@@ -1275,7 +1275,7 @@
     </package>
     <package name="src.shared.security">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="constants.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/shared/security/constants.ts">
+      <file name="constants.ts" path="/Users/felipepena/code/culturas-api/src/shared/security/constants.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -1283,7 +1283,7 @@
     </package>
     <package name="src.shared.testing-utils">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="typeorm-testing-config.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/shared/testing-utils/typeorm-testing-config.ts">
+      <file name="typeorm-testing-config.ts" path="/Users/felipepena/code/culturas-api/src/shared/testing-utils/typeorm-testing-config.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="9" type="stmt"/>
         <line num="2" count="9" type="stmt"/>
@@ -1296,18 +1296,18 @@
       </file>
     </package>
     <package name="src.user">
-      <metrics statements="24" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
-      <file name="user.controller.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/user/user.controller.ts">
+      <metrics statements="24" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+      <file name="user.controller.ts" path="/Users/felipepena/code/culturas-api/src/user/user.controller.ts">
         <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
-      <file name="user.module.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/user/user.module.ts">
+      <file name="user.module.ts" path="/Users/felipepena/code/culturas-api/src/user/user.module.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1316,22 +1316,22 @@
         <line num="5" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
-      <file name="user.service.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/user/user.service.ts">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="user.service.ts" path="/Users/felipepena/code/culturas-api/src/user/user.service.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="26" count="13" type="stmt"/>
       </file>
-      <file name="user.ts" path="/Users/leonardo.garzon/Documents/IoT/culturas-api/src/user/user.ts">
+      <file name="user.ts" path="/Users/felipepena/code/culturas-api/src/user/user.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="11" count="45" type="stmt"/>
-        <line num="12" count="45" type="stmt"/>
-        <line num="13" count="45" type="stmt"/>
-        <line num="14" count="45" type="stmt"/>
+        <line num="11" count="99" type="stmt"/>
+        <line num="12" count="99" type="stmt"/>
+        <line num="13" count="99" type="stmt"/>
+        <line num="14" count="99" type="stmt"/>
       </file>
     </package>
   </project>
