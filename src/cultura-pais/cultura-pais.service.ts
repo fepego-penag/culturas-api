@@ -57,7 +57,6 @@ export class CulturaPaisService {
     culturaId: string,
     paisId: string,
   ): Promise<PaisEntity> {
-    //const pais: PaisEntity = await this.getPaisByPaisId(paisId);
     const pais: PaisEntity = await this.paisRepository.findOne({
       where: { id: paisId },
     });
