@@ -27,4 +27,25 @@ describe('AuthService', () => {
     expect(token).not.toBeNull();
 
   });
+
+  it('Given a valid user and pass then return a true', async () => {
+    const validUser = await service.validateUser('UserRead', 'UserRead')
+
+    expect(validUser).not.toBeNull();
+
+  });
+
+  it('Given a valid user and pass then return a true', async () => {
+    const validUser = await service.validateUser('UserRead', 'ghgh')
+
+    expect(validUser).toBeNull();
+
+  });
+
+  it('Given a valid user and pass then return a true', async () => {
+    const validUser = await service.validateUser('dfgfg', 'UserRead')
+
+    expect(validUser).toBeNull();
+
+  });
 });
