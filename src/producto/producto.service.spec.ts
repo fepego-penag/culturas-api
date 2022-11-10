@@ -125,4 +125,25 @@ describe('ProductoService', () => {
       'Producto no encontrado',
     );
   });
+
+  it('Given a valid Product Id when product name is queried then return error', async () => {
+    const newName = faker.commerce.product();
+    const storedProduct: ProductoEntity = mockProductosList[0];
+
+    await expect(() => service.findOne('03355')).rejects.toHaveProperty(
+      'message',
+      'Producto no encontrado',
+    );
+  });
+
+  it('Given a non valid Product Id when product name is updated then return error', async () => {
+    const newName = faker.commerce.product();
+    const storedProduct: ProductoEntity = mockProductosList[0];
+    const productmock: ProductoEntity = new ProductoEntity();
+
+    await expect(() => service.update('03355', productmock)).rejects.toHaveProperty(
+      'message',
+      'Producto no encontrado',
+    );
+  });
 });
