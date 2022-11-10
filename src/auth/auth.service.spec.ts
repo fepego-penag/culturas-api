@@ -19,4 +19,12 @@ describe('AuthService', () => {
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
+
+  it('Given a req then return a token', async () => {
+    const req = { user: { username: 'test' , sub: 'test', roles: 'test'} }
+    const token = service.login(req);
+
+    expect(token).not.toBeNull();
+
+  });
 });
