@@ -127,7 +127,9 @@
 <a name='L62'></a><a href='#L62'>62</a>
 <a name='L63'></a><a href='#L63'>63</a>
 <a name='L64'></a><a href='#L64'>64</a>
-<a name='L65'></a><a href='#L65'>65</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -153,6 +155,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -202,21 +206,23 @@
   Put,
   UseGuards,
   UseInterceptors,
-} from '@nestjs/common';
-<span class="cstat-no" title="statement not covered" >import { plainToInstance } from 'class-transformer';</span>
-<span class="cstat-no" title="statement not covered" >import { BusinessErrorsInterceptor } from '../shared/interceptors/business-errors.interceptor';</span>
-<span class="cstat-no" title="statement not covered" >import { CulturaDto } from './cultura.dto';</span>
-<span class="cstat-no" title="statement not covered" >import { CulturaEntity } from './cultura.entity';</span>
-<span class="cstat-no" title="statement not covered" >import { CulturaService } from './cultura.service';</span>
-<span class="cstat-no" title="statement not covered" >import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';</span>
-<span class="cstat-no" title="statement not covered" >import { RolesGuard } from '../auth/guards/roles.guard';</span>
-<span class="cstat-no" title="statement not covered" >import { Roles } from '../auth/Decorators/roles.decorator';</span>
-<span class="cstat-no" title="statement not covered" >import { Role } from '../auth/models/role.enum';</span>
+} from "@nestjs/common";
+<span class="cstat-no" title="statement not covered" >import { plainToInstance } from "class-transformer";</span>
+<span class="cstat-no" title="statement not covered" >import { BusinessErrorsInterceptor } from "../shared/interceptors/business-errors.interceptor";</span>
+<span class="cstat-no" title="statement not covered" >import { CulturaDto } from "./cultura.dto";</span>
+<span class="cstat-no" title="statement not covered" >import { CulturaEntity } from "./cultura.entity";</span>
+<span class="cstat-no" title="statement not covered" >import { CulturaService } from "./cultura.service";</span>
+<span class="cstat-no" title="statement not covered" >import { JwtAuthGuard } from "../auth/guards/jwt-auth.guard";</span>
+<span class="cstat-no" title="statement not covered" >import { RolesGuard } from "../auth/guards/roles.guard";</span>
+<span class="cstat-no" title="statement not covered" >import { Roles } from "../auth/Decorators/roles.decorator";</span>
+<span class="cstat-no" title="statement not covered" >import { Role } from "../auth/models/role.enum";</span>
 &nbsp;
-@Controller('culturas')
+@Controller("culturas")
 @UseGuards(JwtAuthGuard, RolesGuard)
 @UseInterceptors(BusinessErrorsInterceptor)
 <span class="cstat-no" title="statement not covered" >export class <span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" >CulturaController </span>{</span></span>
+  private nameVar: string;
+&nbsp;
 <span class="fstat-no" title="function not covered" >  constructor(private readonly <span class="cstat-no" title="statement not covered" >c</span>ulturaService: C</span>ulturaService) {}
 &nbsp;
   @Roles(Role.Read_all, Role.Read_Cultura)
@@ -226,8 +232,8 @@
   }
 &nbsp;
   @Roles(Role.Read_all, Role.Read_Cultura)
-  @Get(':culturaId')
-<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >  async </span>findOne(@Param('culturaId') culturaId: string) {</span>
+  @Get(":culturaId")
+<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >  async </span>findOne(@Param("culturaId") culturaId: string) {</span>
 <span class="cstat-no" title="statement not covered" >    return await this.culturaService.findOne(culturaId);</span>
   }
 &nbsp;
@@ -239,9 +245,9 @@
   }
 &nbsp;
   @Roles(Role.Update_all)
-  @Put(':culturaId')
+  @Put(":culturaId")
 <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >  async </span>update(</span>
-    @Param('culturaId') culturaId: string,
+    @Param("culturaId") culturaId: string,
     @Body() culturaDto: CulturaDto,
   ) {
     const cultura: CulturaEntity = <span class="cstat-no" title="statement not covered" >plainToInstance(CulturaEntity, culturaDto);</span>
@@ -249,9 +255,9 @@
   }
 &nbsp;
   @Roles(Role.Delete_all)
-  @Delete(':culturaId')
+  @Delete(":culturaId")
   @HttpCode(204)
-<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >  async </span>delete(@Param('culturaId') culturaId: string) {</span>
+<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >  async </span>delete(@Param("culturaId") culturaId: string) {</span>
 <span class="cstat-no" title="statement not covered" >    return await this.culturaService.delete(culturaId);</span>
   }
 }
@@ -262,7 +268,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-11-05T22:00:39.713Z
+                at 2022-11-10T03:55:11.788Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
