@@ -7,7 +7,6 @@ import {
   BusinessLogicException,
 } from "../shared/errors/business-errors";
 import { Cache } from "cache-manager";
-import { PaisEntity } from "../pais/pais.entity";
 
 @Injectable()
 export class ProductoService {
@@ -78,9 +77,5 @@ export class ProductoService {
         BusinessError.NOT_FOUND,
       );
     await this.ProductoRepository.remove(producto);
-  }
-
-  async emptyfunction() {
-
   }
 }
